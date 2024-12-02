@@ -128,9 +128,6 @@ body {
 }
 
 
-
-
-
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -149,29 +146,24 @@ body {
 
 
 /* Animación para los logos */
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
 @keyframes zoom {
     0%, 100% {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(1.1); 
     }
 }
-/* Animación para los logos */
+
+
+
 .sponsor-logo {
-    height: 30px;
+    width: 80px; 
+    height: 80px;
+    object-fit: contain;
     opacity: 0.7;
-    transition: opacity 0.3s ease, transform 0.5s ease;
-    animation: zoom 3s infinite ease-in-out; 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+    animation: zoom 3s infinite ease-in-out;
 }
 
 .sponsor-logo:hover {
