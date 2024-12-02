@@ -143,9 +143,6 @@ body {
     }
 }
 
-
-
-/* Animación para los logos */
 @keyframes zoom {
     0%, 100% {
         transform: scale(1);
@@ -154,7 +151,6 @@ body {
         transform: scale(1.1); 
     }
 }
-
 
 
 .sponsor-logo {
